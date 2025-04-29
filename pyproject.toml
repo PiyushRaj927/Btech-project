@@ -5,10 +5,28 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "cucim-cu12>=25.4.0",
+    "cudf-cu12>=24.12.0",
+    "cugraph-cu12>=24.12.0",
+    "cuml-cu12>=24.12.0",
+    "cuproj-cu12>=25.4.0",
+    "cuspatial-cu12>=24.12.0",
+    "cuvs-cu12>=24.12.0",
+    "cuxfilter-cu12>=24.12.0",
+    "dask-cudf-cu12>=24.12.0",
     "hvplot>=0.11.1",
     "jupyter>=1.1.1",
     "matplotlib>=3.9.2",
+    "nx-cugraph-cu12>=24.12.0",
     "openpyxl>=3.1.5",
     "pandas>=2.2.3",
+    "pylibraft-cu12>=24.12.0",
+    "raft-dask-cu12>=24.12.0",
+    "scikeras[tensorflow]>=0.13.0",
     "scikit-learn>=1.5.2",
+    "selenium>=4.31.0",
+    "tensorflow[and-cuda]>=2.19.0",
 ]
+
+[[tool.uv.index]]
+url = "https://pypi.nvidia.com/"
